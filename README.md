@@ -10,7 +10,12 @@
 2023.11.30 ~ 2023.12.12
 
 ----
+### ⚙️ 개발 환경
+- `vsccode`
+- `python`
+- `tensorflow`
 
+---
 ### 📂 데이터 수집
 
 - KAGGLE의 Plant disease 데이터 사용
@@ -62,4 +67,4 @@
 
 - CNN(Convolutional neural network) 을 이용해 프로젝트를 진행
 - 객체탐지가 아닌 품종의 질병을 분류하는 프로그램을 제작이 목적이였기에 사용
-- 
+-
