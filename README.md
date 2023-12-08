@@ -63,10 +63,27 @@
 
 데이터의 불균형을 방지하기 위해 클래스별로 사진의 수를 맞춤
 
-각 품목당 Train, Val, TEST 비율을 (0.7, 0.2, 0.1)로 맞춤
+각 품종당 Train, Val, TEST 비율을 (0.7, 0.2, 0.1)로 맞춤
 
-### 💻 모델 학습
+### 📈 모델 학습
 
 - CNN(Convolutional neural network) 을 이용해 프로젝트를 진행
 - 객체탐지가 아닌 품종의 질병을 분류하는 프로그램을 제작이 목적이였기에 사용
--
+```python
+from keras import models, layers
+
+model = models.Sequential()
+```
+- Sequential 모델을 사용하여 학습 진행
+
+- 레이어층을 추가 및 제거 작업을 반복해서 모델 튜닝
+
+```python
+reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.2, patience=5, min_lr=0.001)
+```
+- 진행 중 검증 손실값이 개선이 안되서 학습률을 동적으로 조정하여 학습을 최적화 하는 콜백함수 `ReduceLROnPlateau` 사용
+
+---
+
+### 🖥️ 학습 결과
+
