@@ -20,7 +20,7 @@
 ---
 ### 📂 데이터 수집
 
-- `KAGGLE`의 Plant disease 데이터 사용
+- ![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)의 Plant disease 데이터 사용
 
 ----
 
