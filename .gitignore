@@ -5,3 +5,5 @@ potato_data
 rose_data
 mini_data
 module38_dataset
+weights
+*.h5
